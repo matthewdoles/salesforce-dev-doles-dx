@@ -1,0 +1,32 @@
+<aura:component description="ProjectSearch" implements="flexipage:availableForAllPageTypes"
+                access="global" controller="ProjectSearchForm">
+    <aura:registerEvent name="searchSubmit" type="c:ProjectSearchSubmit" />
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
+    <aura:attribute name="projects" type="Project__c[]"/>
+    <aura:attribute name="selectedProjectId" type="Id"/>
+    <aura:attribute name="selectedProject" type="Project__c" />
+    <aura:attribute name="deliverables" type="Deliverable__c[]"/>
+
+    <force:recordData aura:id="projectRecord"
+                      recordId="{!v.selectedProjectId}"
+                      targetFields="{!v.selectedProject}"
+                      layoutType="FULL"
+                      mode="VIEW"/>
+
+    <lightning:card title="Find a Project" class="find">
+        <lightning:layout horizontalAlign="center" verticalAlign="end">
+            <lightning:layoutItem padding="horizontal-medium">
+                <lightning:select aura:id="projectSelect" label="" onchange="{!c.handleProjectSelect}" >
+                    <option value="">Select Project</option>
+                    <aura:iteration var="project" items="{!v.projects}">
+                        <option value="{!project.Id}">{!project.Name}</option>
+                    </aura:iteration>
+                </lightning:select>
+            </lightning:layoutItem>
+            <lightning:layoutItem>
+                <lightning:button class="slds-button" label="Search" variant="brand" onclick="{!c.onSearch}"/>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </lightning:card>
+
+</aura:component>

@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="AccountsLoaded">
+    <aura:attribute name="accounts" type="Account[]"/>
+</aura:event>

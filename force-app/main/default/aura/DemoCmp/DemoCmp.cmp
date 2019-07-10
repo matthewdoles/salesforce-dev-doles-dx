@@ -1,0 +1,8 @@
+<aura:component description="DemoCmp">
+    <div aura:id="div1" class="div1" id="div1">
+        <span class="span1"> 1</span>
+        <span class="span2"> 2</span>
+        <span class="span3"> 3</span>
+    </div>
+    <lightning:button variant="brand" label="Submit" onclick="{! c.handleClick }" />
+</aura:component>

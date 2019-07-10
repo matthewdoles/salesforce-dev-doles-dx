@@ -1,0 +1,5 @@
+<aura:component controller="GetContactsControllerAura" description="GetContactsChild">
+    <aura:method name="getContacts" description="Sample methods with server-side calls">
+        <aura:attribute name="callback" type="Function"/>
+    </aura:method>
+</aura:component>

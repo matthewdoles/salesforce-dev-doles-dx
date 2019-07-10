@@ -1,0 +1,16 @@
+<apex:page >
+    <apex:toolbar id="theToolbar">
+        <apex:OutputText value="Simple Toolbar"></apex:OutputText>
+        <apex:toolbarGroup itemSeparator="line" id="theToolbarlinks">
+            <apex:OutputLink value="https://trailhead.salesforce.com/en/home">Trailhead</apex:OutputLink>
+            <apex:OutputLink value="https://salesforce.com">Salesforce</apex:OutputLink>        
+        </apex:toolbarGroup>
+    
+        <apex:toolbarGroup itemSeparator="line" location="right" id="toolbarGroup2">
+            <apex:form >
+                <apex:inputText id="theInputText">Enter text:&nbsp;</apex:InputText>
+                <apex:CommandLink value="Search" id="theCommandLink" />
+            </apex:form>
+        </apex:toolbarGroup>
+    </apex:toolbar>
+</apex:page>

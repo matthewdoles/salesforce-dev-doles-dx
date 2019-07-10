@@ -1,0 +1,35 @@
+<aura:component description="ProjectDetails" implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="projectRecord" type="Project__c" />
+    <aura:handler event="c:ProjectSearchSubmit" action="{!c.onSearch}"/>
+    <force:recordData aura:id="projectRecord"
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.projectRecord}"
+                      layoutType="FULL"
+                      mode="VIEW"/>
+    <aura:if isTrue="{! !empty(v.projectRecord)}">
+        <lightning:card iconName="custom:custom10" class="container">
+            <aura:set attribute="title">
+                {!v.projectRecord.Name}
+            </aura:set>
+            <lightning:layout>
+                <lightning:layoutItem flexibility="grow" size="12">
+                    <div class="slds-p-horizontal--small">
+                        <div class="projectproperty">
+                            <span class="label">Project Name:</span>
+                            <span>{!v.projectRecord.Name}</span>
+                        </div>
+                        <div class="projectproperty">
+                            <span class="label">Start Date:</span>
+                            <span><lightning:formattedDateTime value="{!v.projectRecord.Start_Date__c}"/></span>
+                        </div>
+                        <div class="projectproperty">
+                            <span class="label">End Date:</span>
+                            <span><lightning:formattedDateTime value="{!v.projectRecord.End_Date__c}"/></span>
+                        </div>
+                    </div>
+                </lightning:layoutItem>
+            </lightning:layout>
+        </lightning:card>
+    </aura:if>
+</aura:component>

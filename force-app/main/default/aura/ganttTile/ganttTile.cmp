@@ -1,0 +1,5 @@
+<aura:component description="ganttTile">
+    <aura:attribute name="ganttItem" type="Object"/>
+    <aura:registerEvent name="deliverableSelected" type="c:DeliverableSelected" />
+    <div class="item1" onclick="{!c.onDeliverableSelected}" style="{!'width: ' + v.ganttItem.width + '%; margin-left: ' + v.ganttItem.leftMargin + '%; background-color: ' + v.ganttItem.color + ';'}" ><br/></div>
+</aura:component>

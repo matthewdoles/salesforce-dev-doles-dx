@@ -1,0 +1,20 @@
+.THIS.container {
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.THIS .custom-box {
+    display: inline-block;
+    text-align: center;
+    background-color: #f4f6f9;
+    padding: 1rem;
+    border-right: 1px solid #d8dde6;
+    height: 100%;
+}
+
+.THIS .year {
+    text-align: center;
+    background-color: #f4f6f9;
+    padding: 1rem;
+}

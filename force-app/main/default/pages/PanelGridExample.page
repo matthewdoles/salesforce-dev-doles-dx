@@ -1,0 +1,15 @@
+<apex:page >
+    <apex:PanelGrid columns="2" id="pGrid" border="3">
+        <apex:OutputText value="First" id="first"></apex:OutputText>
+        <apex:OutputText value="Second" id="second"></apex:OutputText>
+        <apex:OutputText value="Third" id="third"></apex:OutputText>
+        <apex:OutputText value="Fourth" id="fourth"></apex:OutputText>
+        <apex:OutputText value="Fifth" id="fifth"></apex:OutputText>
+        <apex:OutputText value="Sixth" id="sixth"></apex:OutputText>
+        <apex:PanelGroup >
+            <apex:OutputText value="Seventh" id="seventh"></apex:OutputText>&nbsp;
+            <apex:OutputText value="Eigth" id="eigth"></apex:OutputText>
+        </apex:PanelGroup>
+        <apex:OutputText value="Nineth" id="nineth"></apex:OutputText>
+    </apex:PanelGrid>
+</apex:page>

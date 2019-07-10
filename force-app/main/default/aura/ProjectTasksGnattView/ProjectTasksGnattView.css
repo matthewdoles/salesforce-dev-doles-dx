@@ -1,0 +1,56 @@
+.THIS.container {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.THIS .custom-box {
+    text-align: center;
+    background-color: #f4f6f9;
+    padding: 1rem;
+    border-left: 1px solid #d8dde6;
+    border-right: 1px solid #d8dde6;
+    border-top: 2px solid #d8dde6;
+    border-bottom: 2px solid #d8dde6;
+}
+
+.THIS .year {
+    text-align: center;
+    background-color: #f4f6f9;
+    padding: 1rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.THIS .item1 {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 1rem;
+    width: 24.65%;
+}
+.THIS .item2 {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 1rem;
+    width: 24.65%;
+    margin-left: 16.43%;
+}
+.THIS .item3 {
+    text-align: center;
+    background-color: lightcoral;
+    padding: 1rem;
+    width: 24.65%;
+    margin-left: 41.09%;
+}
+.THIS .item4 {
+    text-align: center;
+    background-color: mediumpurple;
+    padding: 1rem;
+    width: 57.53%;
+}
+.THIS .item5 {
+    text-align: center;
+    background-color: lightgray;
+    padding: 1rem;
+    width: 24.65%;
+    margin-left: 57.53%;
+}

@@ -1,0 +1,19 @@
+.THIS.c-container {
+    margin: 10px 0 20px 0;
+}
+
+.THIS .custom-box {
+    text-align: center;
+    background-color: #f4f6f9;
+    padding: 1rem;
+    border-left: 1px solid #d8dde6;
+    border-right: 1px solid #d8dde6;
+    border-top: 2px solid #d8dde6;
+    border-bottom: 2px solid #d8dde6;
+}
+
+.THIS .year {
+    text-align: center;
+    background-color: #f4f6f9;
+    padding: 1rem;
+}

@@ -1,0 +1,19 @@
+<aura:component description="accDisplay" implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="accountRecord" type="Account" />
+    <force:recordData aura:id="accountRecord"
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.Account}"
+                      layoutType="FULL"
+                      mode="VIEW" />
+    <lightning:card iconName="standard:account" title="{!v.accountRecord.Name}" >
+        <div class="slds-p-horizontal--small">
+            <p class="slds-text-heading--small">
+                <lightning:formattedText title="Industry" value="{!v.accountRecord.Industry}" /></p>
+            <p class="slds-text-heading--small">
+                <lightning:formattedText title="Description" value="{!v.accountRecord.Description}" /></p>
+            <p class="slds-text-heading--small">
+                <lightning:formattedPhone title="PHone" value="{!v.accountRecord.Phone}" /></p>
+        </div>
+    </lightning:card>
+</aura:component>

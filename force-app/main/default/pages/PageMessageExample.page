@@ -1,0 +1,8 @@
+<apex:page >
+  <apex:pageBlock >
+      <apex:pageMessage summary="Validation messages appear in the page message component." severity="error" strength="3"></apex:pageMessage>
+      <apex:pageMessage summary="Cofirm messages appear in the page message component." severity="confirm" strength="3"></apex:pageMessage>
+      <apex:pageMessage summary="Warning messages appear in the page message component." severity="warning" strength="3"></apex:pageMessage>
+      <apex:pageMessage summary="Basic info messages appear in the page message component." severity="info" strength="3"></apex:pageMessage>
+  </apex:pageBlock>
+</apex:page>

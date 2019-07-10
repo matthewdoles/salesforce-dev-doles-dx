@@ -1,0 +1,14 @@
+<apex:page id="VFToLightning" controller="VFToLightning">
+    <apex:slds />
+    <input id="message" type="text"/>
+    <button onclick="sendToLC()">Send to Lightning Component</button>
+    <script>
+        var lexOrigin = "https://{!JSENCODE(SalesforceDomain)}.Lightning.force.com";
+        console.log(lexOrigin);
+        function sendToLC() {
+            var message = document.getElementById('message').value;
+            console.log('Message to send: ' + message);
+            parent.postMessage(message, lexOrigin);
+        }
+    </script>
+</apex:page>

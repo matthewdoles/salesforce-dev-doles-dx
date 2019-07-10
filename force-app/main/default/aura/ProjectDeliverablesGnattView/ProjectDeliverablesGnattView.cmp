@@ -1,0 +1,53 @@
+<aura:component description="ProjectTasksGnattView" implements="flexipage:availableForAllPageTypes,force:hasRecordId"
+controller="ProjectSearchForm">
+    <aura:attribute name="deliverables" type="Deliverable__c[]"/>
+    <aura:attribute name="deliverableIds" type="String[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="projectRecord" type="Project__c" />
+
+    <aura:attribute name="ganttHeaderWidth" type="String"/>
+    <aura:attribute name="ganttHeaderMonths" type="String[]" />
+    <aura:attribute name="ganttItems" type="Object[]"/>
+
+    <aura:registerEvent name="deliverableSelected" type="c:DeliverableSelected" />
+    <aura:handler event="c:ProjectSearchSubmit" action="{!c.onSearch}"/>
+
+    <force:recordData aura:id="projectRecord"
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.projectRecord}"
+                      layoutType="FULL"
+                      mode="VIEW"/>
+    <aura:if isTrue="{! !empty(v.projectRecord)}">
+        <div class="container">
+            <lightning:layout multipleRows="false">
+                <lightning:layoutItem size="12">
+                    <div class="year">{!v.projectRecord.Name}</div>
+                </lightning:layoutItem>
+            </lightning:layout>
+            <lightning:layout multipleRows="false">
+                <lightning:layoutItem size="3">
+                    <div class="custom-box" style="width: 100%">Deliverable</div>
+                </lightning:layoutItem>
+                <lightning:layoutItem size="9">
+                    <aura:iteration var="month" items="{!v.ganttHeaderMonths}">
+                        <div class="custom-box" style="{!'width: ' + v.ganttHeaderWidth + '%;'}">{!month}</div>
+                    </aura:iteration>
+                </lightning:layoutItem>
+            </lightning:layout>
+            <lightning:layout multipleRows="true">
+                <aura:iteration var="ganttItem" items="{!v.ganttItems}">
+                    <lightning:layoutItem size="3">
+                        <div class="custom-box" style="width: 100%">
+                            <p>{!ganttItem.Name}</p>
+                            <p>{!ganttItem.Start_Date__c} - {!ganttItem.Due_Date__c}</p>
+                        </div>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem size="9">
+                        <c:ganttTile ganttItem="{!ganttItem}"/>
+                    </lightning:layoutItem>
+                </aura:iteration>
+            </lightning:layout>
+        </div>
+    </aura:if>
+</aura:component>

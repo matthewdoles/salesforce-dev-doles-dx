@@ -1,0 +1,25 @@
+<aura:component description="LeadPath" implements="force:hasRecordId,flexipage:availableForRecordHome">
+    <aura:attribute name="currentStep" type="String"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="record" type="Object"/>
+    <aura:attribute name="recordError" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
+    <force:recordData aura:id="recodComponent" recordId="{!v.recordId}"
+                      layoutType="FULL" targetFields="{!v.record}"
+                      targetError="{!v.recordError}" recordUpdated="{!c.handleRecordUpdated}"
+                      mode="VIEW"/>
+    <aura:if isTrue="{!not(empty(v.recordError))}">
+        <div class="recordError">
+            <ui:message title="Error" severity="error" closable="true">{!v.recordError}</ui:message>
+        </div>
+    </aura:if>
+    <div class="slds-p-around--x-small">
+        <lightning:progressIndicator currentStep="{!v.currentStep}" type="path" variant="base">
+            <lightning:progressStep label="Contacted" value="1"/>
+            <lightning:progressStep label="Open" value="2"/>
+            <lightning:progressStep label="Nurturing" value="3"/>
+            <lightning:progressStep label="Unqualified" value="4"/>
+            <lightning:progressStep label="Closed" value="5"/>
+        </lightning:progressIndicator>
+    </div>
+</aura:component>

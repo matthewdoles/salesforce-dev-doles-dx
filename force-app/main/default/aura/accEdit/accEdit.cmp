@@ -1,0 +1,23 @@
+<aura:component description="accEdit" implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="accountRecord" type="Account" />
+    <aura:attribute name="recordSaveError" type="String" />
+    <force:recordData aura:id="accountRecord"
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.accountRecord}"
+                      targetError="{!v.recordSaveError}"
+                      layoutType="FULL"
+                      mode="EDIT" />
+    <lightning:card iconName="action:edit" title="Edit Account">
+        <div class="slds-p-horizontal--small">
+            <lightning:input label="Account Name" value="{!v.accountRecord.Name}"/>
+            <br/>
+            <lightning:button label="Save Account" variant="brand" onclick="{!c.handleSaveRecord}" />
+        </div>
+    </lightning:card>
+    <aura:if isTrue="{!not(empty(v.recordSaveError))}">
+        <div class="recordError">
+            {!v.recordSaveError}
+        </div>
+    </aura:if>
+</aura:component>

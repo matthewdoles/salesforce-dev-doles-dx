@@ -1,0 +1,64 @@
+<aura:component description="GanttView" implements="flexipage:availableForAllPageTypes">
+    <div class="container">
+        <lightning:layout multipleRows="false">
+            <lightning:layoutItem size="12">
+                <div class="year">2019</div>
+            </lightning:layoutItem>
+        </lightning:layout>
+        <lightning:layout multipleRows="false">
+            <lightning:layoutItem size="1">
+                <div class="custom-box">January</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">February</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">March</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">April</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">May</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">June</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">July</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">August</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">September</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">October</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">November</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="1">
+                <div class="custom-box">December</div>
+            </lightning:layoutItem>
+        </lightning:layout>
+        <lightning:layout multipleRows="true">
+            <lightning:layoutItem size="12">
+                <div class="item1">Task 1</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="12">
+                <div class="item2">Task 2</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="12">
+                <div class="item3">Task 3</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="12">
+                <div class="item4">Task 4</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="12">
+                <div class="item5">Task 5</div>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+</aura:component>
