@@ -32,5 +32,14 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>*</members>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Opportunity</members>
+        <members>Lead</members>
+        <members>Product2</members>
+        <name>CustomObject</name>
+    </types>
     <version>46.0</version>
 </Package>
