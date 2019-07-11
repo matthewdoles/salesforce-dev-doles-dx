@@ -89,6 +89,12 @@
             ],
             "c/tile": [
                 "tile/tile.js"
+            ],
+            "c/hello_expressions": [
+                "hello_expressions/hello_expressions.js"
+            ],
+            "c/hello_conditional_surprise": [
+                "hello_conditional_surprise/hello_conditional_surprise.js"
             ]
         }
     },
