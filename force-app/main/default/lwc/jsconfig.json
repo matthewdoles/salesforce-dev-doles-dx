@@ -36,6 +36,12 @@
             "c/helloWorld": [
                 "helloWorld/helloWorld.js"
             ],
+            "c/hello_conditional_surprise": [
+                "hello_conditional_surprise/hello_conditional_surprise.js"
+            ],
+            "c/hello_expressions": [
+                "hello_expressions/hello_expressions.js"
+            ],
             "c/helloworld_lwc": [
                 "helloworld_lwc/helloworld_lwc.js"
             ],
@@ -44,6 +50,15 @@
             ],
             "c/ldsUtils": [
                 "ldsUtils/ldsUtils.js"
+            ],
+            "c/lds_create_record": [
+                "lds_create_record/lds_create_record.js"
+            ],
+            "c/lds_delete_record": [
+                "lds_delete_record/lds_delete_record.js"
+            ],
+            "c/lds_utils": [
+                "lds_utils/lds_utils.js"
             ],
             "c/list": [
                 "list/list.js"
@@ -90,11 +105,8 @@
             "c/tile": [
                 "tile/tile.js"
             ],
-            "c/hello_expressions": [
-                "hello_expressions/hello_expressions.js"
-            ],
-            "c/hello_conditional_surprise": [
-                "hello_conditional_surprise/hello_conditional_surprise.js"
+            "c/flipclock": [
+                "../staticresources/flipClock/flipclock/flipclock.js"
             ]
         }
     },
