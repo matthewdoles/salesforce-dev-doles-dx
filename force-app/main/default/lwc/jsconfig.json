@@ -119,6 +119,9 @@
             ],
             "c/compositionIteration": [
                 "compositionIteration/compositionIteration.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
             ]
         }
     },
