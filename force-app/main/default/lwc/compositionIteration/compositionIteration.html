@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Composition Iteration" icon-name="custom:custom57">
+        <div>
+            <template for:each={contacts} for:item="contact">
+                <c-contact-tile
+                    key={contact.Id}
+                    contact={contact}>
+                </c-contact-tile>
+            </template>
+        </div>
+    </lightning-card>
+</template>
