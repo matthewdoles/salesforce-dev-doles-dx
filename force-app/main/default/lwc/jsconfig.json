@@ -24,11 +24,35 @@
             "c/bikeCard": [
                 "bikeCard/bikeCard.js"
             ],
+            "c/compositionBasics": [
+                "compositionBasics/compositionBasics.js"
+            ],
+            "c/compositionContactSearch": [
+                "compositionContactSearch/compositionContactSearch.js"
+            ],
+            "c/compositionIteration": [
+                "compositionIteration/compositionIteration.js"
+            ],
+            "c/contactListItem": [
+                "contactListItem/contactListItem.js"
+            ],
+            "c/contactTile": [
+                "contactTile/contactTile.js"
+            ],
             "c/data": [
                 "data/data.js"
             ],
             "c/detail": [
                 "detail/detail.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
+            "c/eventSimple": [
+                "eventSimple/eventSimple.js"
+            ],
+            "c/eventWithData": [
+                "eventWithData/eventWithData.js"
             ],
             "c/helloWebComponent": [
                 "helloWebComponent/helloWebComponent.js"
@@ -108,20 +132,11 @@
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
             ],
-            "c/contactTile": [
-                "contactTile/contactTile.js"
+            "c/eventBubbling": [
+                "eventBubbling/eventBubbling.js"
             ],
-            "c/compositionBasics": [
-                "compositionBasics/compositionBasics.js"
-            ],
-            "c/compositionContactSearch": [
-                "compositionContactSearch/compositionContactSearch.js"
-            ],
-            "c/compositionIteration": [
-                "compositionIteration/compositionIteration.js"
-            ],
-            "c/errorPanel": [
-                "errorPanel/errorPanel.js"
+            "c/contactListItemBubbling": [
+                "contactListItemBubbling/contactListItemBubbling.js"
             ]
         }
     },
