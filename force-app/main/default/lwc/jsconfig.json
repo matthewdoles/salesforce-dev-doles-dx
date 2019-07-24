@@ -36,6 +36,9 @@
             "c/contactListItem": [
                 "contactListItem/contactListItem.js"
             ],
+            "c/contactListItemBubbling": [
+                "contactListItemBubbling/contactListItemBubbling.js"
+            ],
             "c/contactTile": [
                 "contactTile/contactTile.js"
             ],
@@ -47,6 +50,9 @@
             ],
             "c/errorPanel": [
                 "errorPanel/errorPanel.js"
+            ],
+            "c/eventBubbling": [
+                "eventBubbling/eventBubbling.js"
             ],
             "c/eventSimple": [
                 "eventSimple/eventSimple.js"
@@ -132,11 +138,23 @@
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
             ],
-            "c/eventBubbling": [
-                "eventBubbling/eventBubbling.js"
+            "c/apiProperty": [
+                "apiProperty/apiProperty.js"
             ],
-            "c/contactListItemBubbling": [
-                "contactListItemBubbling/contactListItemBubbling.js"
+            "c/chartBar": [
+                "chartBar/chartBar.js"
+            ],
+            "c/apiFunction": [
+                "apiFunction/apiFunction.js"
+            ],
+            "c/apiClock": [
+                "apiClock/apiClock.js"
+            ],
+            "c/apiSetterGetter": [
+                "apiSetterGetter/apiSetterGetter.js"
+            ],
+            "c/apiTodoList": [
+                "apiTodoList/apiTodoList.js"
             ]
         }
     },
