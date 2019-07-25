@@ -6,6 +6,21 @@
             "c/accountMap": [
                 "accountMap/accountMap.js"
             ],
+            "c/apiClock": [
+                "apiClock/apiClock.js"
+            ],
+            "c/apiFunction": [
+                "apiFunction/apiFunction.js"
+            ],
+            "c/apiProperty": [
+                "apiProperty/apiProperty.js"
+            ],
+            "c/apiSetterGetter": [
+                "apiSetterGetter/apiSetterGetter.js"
+            ],
+            "c/apiTodoList": [
+                "apiTodoList/apiTodoList.js"
+            ],
             "c/bearList": [
                 "bearList/bearList.js"
             ],
@@ -23,6 +38,9 @@
             ],
             "c/bikeCard": [
                 "bikeCard/bikeCard.js"
+            ],
+            "c/chartBar": [
+                "chartBar/chartBar.js"
             ],
             "c/compositionBasics": [
                 "compositionBasics/compositionBasics.js"
@@ -126,6 +144,15 @@
             "c/pubsub": [
                 "pubsub/pubsub.js"
             ],
+            "c/pubsubContactDetails": [
+                "pubsubContactDetails/pubsubContactDetails.js"
+            ],
+            "c/pubsubContactList": [
+                "pubsubContactList/pubsubContactList.js"
+            ],
+            "c/pubsubSearchBar": [
+                "pubsubSearchBar/pubsubSearchBar.js"
+            ],
             "c/selector": [
                 "selector/selector.js"
             ],
@@ -137,24 +164,6 @@
             ],
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
-            ],
-            "c/apiProperty": [
-                "apiProperty/apiProperty.js"
-            ],
-            "c/chartBar": [
-                "chartBar/chartBar.js"
-            ],
-            "c/apiFunction": [
-                "apiFunction/apiFunction.js"
-            ],
-            "c/apiClock": [
-                "apiClock/apiClock.js"
-            ],
-            "c/apiSetterGetter": [
-                "apiSetterGetter/apiSetterGetter.js"
-            ],
-            "c/apiTodoList": [
-                "apiTodoList/apiTodoList.js"
             ]
         }
     },
