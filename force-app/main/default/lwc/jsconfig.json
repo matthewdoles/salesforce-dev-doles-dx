@@ -6,6 +6,9 @@
             "c/accountMap": [
                 "accountMap/accountMap.js"
             ],
+            "c/apexWireMethodToProperty": [
+                "apexWireMethodToProperty/apexWireMethodToProperty.js"
+            ],
             "c/apiClock": [
                 "apiClock/apiClock.js"
             ],
@@ -164,6 +167,12 @@
             ],
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
+            ],
+            "c/apexWireMethodToFunction": [
+                "apexWireMethodToFunction/apexWireMethodToFunction.js"
+            ],
+            "c/apexWireMethodWithParams": [
+                "apexWireMethodWithParams/apexWireMethodWithParams.js"
             ]
         }
     },
