@@ -173,6 +173,15 @@
             ],
             "c/apexWireMethodWithParams": [
                 "apexWireMethodWithParams/apexWireMethodWithParams.js"
+            ],
+            "c/wireGetRecordUser": [
+                "wireGetRecordUser/wireGetRecordUser.js"
+            ],
+            "c/wireGetObjectInfo": [
+                "wireGetObjectInfo/wireGetObjectInfo.js"
+            ],
+            "c/wireCurrentPageReference": [
+                "wireCurrentPageReference/wireCurrentPageReference.js"
             ]
         }
     },
