@@ -6,8 +6,14 @@
             "c/accountMap": [
                 "accountMap/accountMap.js"
             ],
+            "c/apexWireMethodToFunction": [
+                "apexWireMethodToFunction/apexWireMethodToFunction.js"
+            ],
             "c/apexWireMethodToProperty": [
                 "apexWireMethodToProperty/apexWireMethodToProperty.js"
+            ],
+            "c/apexWireMethodWithParams": [
+                "apexWireMethodWithParams/apexWireMethodWithParams.js"
             ],
             "c/apiClock": [
                 "apiClock/apiClock.js"
@@ -117,6 +123,9 @@
             "c/myFirstWebComponent": [
                 "myFirstWebComponent/myFirstWebComponent.js"
             ],
+            "c/navigationExamples": [
+                "navigationExamples/navigationExamples.js"
+            ],
             "c/orderBuilder": [
                 "orderBuilder/orderBuilder.js"
             ],
@@ -165,32 +174,32 @@
             "c/tile": [
                 "tile/tile.js"
             ],
-            "c/flipclock": [
-                "../staticresources/flipClock/flipclock/flipclock.js"
-            ],
-            "c/apexWireMethodToFunction": [
-                "apexWireMethodToFunction/apexWireMethodToFunction.js"
-            ],
-            "c/apexWireMethodWithParams": [
-                "apexWireMethodWithParams/apexWireMethodWithParams.js"
-            ],
-            "c/wireGetRecordUser": [
-                "wireGetRecordUser/wireGetRecordUser.js"
-            ],
-            "c/wireGetObjectInfo": [
-                "wireGetObjectInfo/wireGetObjectInfo.js"
-            ],
             "c/wireCurrentPageReference": [
                 "wireCurrentPageReference/wireCurrentPageReference.js"
             ],
-            "c/wireListView": [
-                "wireListView/wireListView.js"
+            "c/wireGetObjectInfo": [
+                "wireGetObjectInfo/wireGetObjectInfo.js"
             ],
             "c/wireGetPicklistValues": [
                 "wireGetPicklistValues/wireGetPicklistValues.js"
             ],
             "c/wireGetPicklistValuesByRecordType": [
                 "wireGetPicklistValuesByRecordType/wireGetPicklistValuesByRecordType.js"
+            ],
+            "c/wireGetRecordUser": [
+                "wireGetRecordUser/wireGetRecordUser.js"
+            ],
+            "c/wireListView": [
+                "wireListView/wireListView.js"
+            ],
+            "c/flipclock": [
+                "../staticresources/flipClock/flipclock/flipclock.js"
+            ],
+            "c/navigateToRecord": [
+                "navigateToRecord/navigateToRecord.js"
+            ],
+            "c/navigateToRelatedList": [
+                "navigateToRelatedList/navigateToRelatedList.js"
             ]
         }
     },
