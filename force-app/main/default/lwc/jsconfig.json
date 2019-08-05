@@ -200,6 +200,18 @@
             ],
             "c/navigateToRelatedList": [
                 "navigateToRelatedList/navigateToRelatedList.js"
+            ],
+            "c/miscGetUserId": [
+                "miscGetUserId/miscGetUserId.js"
+            ],
+            "c/miscNotification": [
+                "miscNotification/miscNotification.js"
+            ],
+            "c/miscModal": [
+                "miscModal/miscModal.js"
+            ],
+            "c/modal": [
+                "modal/modal.js"
             ]
         }
     },
