@@ -29,5 +29,5 @@ $RECYCLE.BIN/
 
 .prettierignore
 .prettierrc
-.vscode
-config
+.vscode/
+config/
