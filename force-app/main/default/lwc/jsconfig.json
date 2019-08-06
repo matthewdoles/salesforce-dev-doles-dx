@@ -120,8 +120,26 @@
             "c/list": [
                 "list/list.js"
             ],
+            "c/miscGetUserId": [
+                "miscGetUserId/miscGetUserId.js"
+            ],
+            "c/miscModal": [
+                "miscModal/miscModal.js"
+            ],
+            "c/miscNotification": [
+                "miscNotification/miscNotification.js"
+            ],
+            "c/modal": [
+                "modal/modal.js"
+            ],
             "c/myFirstWebComponent": [
                 "myFirstWebComponent/myFirstWebComponent.js"
+            ],
+            "c/navigateToRecord": [
+                "navigateToRecord/navigateToRecord.js"
+            ],
+            "c/navigateToRelatedList": [
+                "navigateToRelatedList/navigateToRelatedList.js"
             ],
             "c/navigationExamples": [
                 "navigationExamples/navigationExamples.js"
@@ -195,23 +213,17 @@
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
             ],
-            "c/navigateToRecord": [
-                "navigateToRecord/navigateToRecord.js"
+            "c/miscSharedJavaScript": [
+                "miscSharedJavaScript/miscSharedJavaScript.js"
             ],
-            "c/navigateToRelatedList": [
-                "navigateToRelatedList/navigateToRelatedList.js"
+            "c/mortgage": [
+                "mortgage/mortgage.js"
             ],
-            "c/miscGetUserId": [
-                "miscGetUserId/miscGetUserId.js"
+            "c/miscRestApiCall": [
+                "miscRestApiCall/miscRestApiCall.js"
             ],
-            "c/miscNotification": [
-                "miscNotification/miscNotification.js"
-            ],
-            "c/miscModal": [
-                "miscModal/miscModal.js"
-            ],
-            "c/modal": [
-                "modal/modal.js"
+            "c/miscDomQuery": [
+                "miscDomQuery/miscDomQuery.js"
             ]
         }
     },
