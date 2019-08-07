@@ -224,6 +224,15 @@
             ],
             "c/miscDomQuery": [
                 "miscDomQuery/miscDomQuery.js"
+            ],
+            "c/libsD3": [
+                "libsD3/libsD3.js"
+            ],
+            "c/libsChartjs": [
+                "libsChartjs/libsChartjs.js"
+            ],
+            "c/libsMomentjs": [
+                "libsMomentjs/libsMomentjs.js"
             ]
         }
     },
