@@ -1,5 +1,5 @@
 <aura:component description="ChartJs">
-    <ltng:require scripts="{!$Resource.ChartJs}" afterScriptsLoaded="{!c.afterScriptsLoaded}"/>
+    <ltng:require scripts="{!$Resource.chart}" afterScriptsLoaded="{!c.afterScriptsLoaded}"/>
     <div  class="chart-container">
         <div class="pie-chart-container">
             <canvas aura:id="piechart" id="piechart"/>
