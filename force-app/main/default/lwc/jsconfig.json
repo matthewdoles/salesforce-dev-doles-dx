@@ -117,8 +117,20 @@
             "c/lds_utils": [
                 "lds_utils/lds_utils.js"
             ],
+            "c/libsChartjs": [
+                "libsChartjs/libsChartjs.js"
+            ],
+            "c/libsD3": [
+                "libsD3/libsD3.js"
+            ],
+            "c/libsMomentjs": [
+                "libsMomentjs/libsMomentjs.js"
+            ],
             "c/list": [
                 "list/list.js"
+            ],
+            "c/miscDomQuery": [
+                "miscDomQuery/miscDomQuery.js"
             ],
             "c/miscGetUserId": [
                 "miscGetUserId/miscGetUserId.js"
@@ -129,8 +141,17 @@
             "c/miscNotification": [
                 "miscNotification/miscNotification.js"
             ],
+            "c/miscRestApiCall": [
+                "miscRestApiCall/miscRestApiCall.js"
+            ],
+            "c/miscSharedJavaScript": [
+                "miscSharedJavaScript/miscSharedJavaScript.js"
+            ],
             "c/modal": [
                 "modal/modal.js"
+            ],
+            "c/mortgage": [
+                "mortgage/mortgage.js"
             ],
             "c/myFirstWebComponent": [
                 "myFirstWebComponent/myFirstWebComponent.js"
@@ -212,27 +233,6 @@
             ],
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
-            ],
-            "c/miscSharedJavaScript": [
-                "miscSharedJavaScript/miscSharedJavaScript.js"
-            ],
-            "c/mortgage": [
-                "mortgage/mortgage.js"
-            ],
-            "c/miscRestApiCall": [
-                "miscRestApiCall/miscRestApiCall.js"
-            ],
-            "c/miscDomQuery": [
-                "miscDomQuery/miscDomQuery.js"
-            ],
-            "c/libsD3": [
-                "libsD3/libsD3.js"
-            ],
-            "c/libsChartjs": [
-                "libsChartjs/libsChartjs.js"
-            ],
-            "c/libsMomentjs": [
-                "libsMomentjs/libsMomentjs.js"
             ]
         }
     },
