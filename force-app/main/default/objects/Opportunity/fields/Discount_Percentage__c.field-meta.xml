@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <inlineHelpText>If the customer is getting a discount on this opportunity, enter the amount here. For example, if the discount is 10%, enter the whole number 10.</inlineHelpText>
     <label>Discount Percentage</label>
-    <precision>18</precision>
+    <precision>3</precision>
     <required>false</required>
     <scale>0</scale>
     <trackFeedHistory>false</trackFeedHistory>

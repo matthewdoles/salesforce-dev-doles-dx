@@ -6,6 +6,49 @@
     <description>Use to log B2B opportunities</description>
     <label>B2B Prospecting</label>
     <picklistValues>
+        <picklist>Close_Reason__c</picklist>
+        <values>
+            <fullName>Lost%3A Company Budget Constraints</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%3A Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%3A Other Reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%3A Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%3A Product Features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%3A Project Abandoned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%3A Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%3A Other Reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%3A Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%3A Product Features</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>DeliveryInstallationStatus__c</picklist>
         <values>
             <fullName>Completed</fullName>
