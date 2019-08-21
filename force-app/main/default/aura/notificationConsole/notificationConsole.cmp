@@ -23,6 +23,11 @@
             </div>
         </div>
         <div class='slds-container_fluid slds-scrollable_y content'>
+            <div class='slds-p-around_small slds-border_top'>
+                <div class='slds-grid slds-grid_align-spread slds-has-flexi-truncate'>
+                    <p>https://bear-watch.herokuapp.com/index.html</p>
+                </div>
+            </div>
             <aura:iteration items='{!v.notifications}' var='notification'>
                 <div class='slds-p-around_small slds-border_top'>
                     <div class='slds-grid slds-grid_align-spread slds-has-flexi-truncate'>
