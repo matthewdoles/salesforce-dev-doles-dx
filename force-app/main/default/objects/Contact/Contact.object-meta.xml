@@ -325,6 +325,7 @@
     <compactLayoutAssignment>Compact_Contact</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTACT.TITLE</customTabListAdditionalFields>
