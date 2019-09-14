@@ -26,5 +26,5 @@
     <siteAdmin>matthew.doles@salesforce.com</siteAdmin>
     <siteType>ChatterNetwork</siteType>
     <subdomain>ursa-major-doles-developer-edition</subdomain>
-    <urlPathPrefix>accountportal</urlPathPrefix>
+    <urlPathPrefix>UrsaMajorPortal</urlPathPrefix>
 </CustomSite>
