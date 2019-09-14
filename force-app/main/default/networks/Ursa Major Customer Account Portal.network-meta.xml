@@ -55,6 +55,6 @@
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
-    <urlPathPrefix>accountportal</urlPathPrefix>
+    <urlPathPrefix>UrsaMajorPortal</urlPathPrefix>
     <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
 </Network>
