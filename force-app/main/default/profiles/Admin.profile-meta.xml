@@ -2328,6 +2328,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>My_First_Component</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>My_Projects</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
