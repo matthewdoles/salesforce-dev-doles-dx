@@ -90,9 +90,6 @@
             "c/helloWebComponent": [
                 "helloWebComponent/helloWebComponent.js"
             ],
-            "c/helloWorld": [
-                "helloWorld/helloWorld.js"
-            ],
             "c/hello_conditional_surprise": [
                 "hello_conditional_surprise/hello_conditional_surprise.js"
             ],
