@@ -101,7 +101,7 @@
         <showHeader>true</showHeader>
     </screens>
     <startElementReference>Oppty_Screen</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>opptyName</name>
         <text>{!accountName}{!Oppty_Identifier}</text>

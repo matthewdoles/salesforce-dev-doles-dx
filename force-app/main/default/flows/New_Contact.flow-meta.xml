@@ -175,7 +175,7 @@
         <allowPause>true</allowPause>
         <fields>
             <name>confirmation_message</name>
-            <fieldText>&lt;p&gt;&lt;span style=&quot;color: rgb(30, 30, 30); background-color: rgb(255, 255, 255);&quot;&gt;Thanks! &amp;lt;a href=&quot;/{!contact.Id&quot;&amp;gt;The contact&amp;lt;/a&amp;gt; was {!created_or_updated}.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(30, 30, 30);&quot;&gt;Thanks! &amp;lt;a href=&quot;/{!contact.Id&quot;&amp;gt;The contact&amp;lt;/a&amp;gt; was {!created_or_updated}.&lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
@@ -246,7 +246,7 @@
         <showHeader>true</showHeader>
     </screens>
     <startElementReference>Contact_Info</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>chatterMessage</name>
         <text>The contact was {!created_or_updated}.</text>
