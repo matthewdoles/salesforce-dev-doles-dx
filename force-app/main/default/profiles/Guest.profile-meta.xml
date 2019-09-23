@@ -317,6 +317,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MyPropertyController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>NewAndExistingAccountController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
