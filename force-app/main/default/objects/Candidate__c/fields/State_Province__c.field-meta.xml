@@ -3,8 +3,9 @@
     <fullName>State_Province__c</fullName>
     <externalId>false</externalId>
     <label>State/Province</label>
-    <length>30</length>
+    <length>50</length>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

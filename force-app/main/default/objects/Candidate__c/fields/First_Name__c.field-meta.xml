@@ -3,8 +3,9 @@
     <fullName>First_Name__c</fullName>
     <externalId>false</externalId>
     <label>First Name</label>
-    <length>50</length>
+    <length>30</length>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>
