@@ -9,6 +9,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountListController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
