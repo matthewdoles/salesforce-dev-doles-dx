@@ -230,6 +230,9 @@
             ],
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
+            ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
             ]
         }
     },
