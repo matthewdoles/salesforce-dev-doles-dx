@@ -150,6 +150,9 @@
             "c/mortgage": [
                 "mortgage/mortgage.js"
             ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
+            ],
             "c/myFirstWebComponent": [
                 "myFirstWebComponent/myFirstWebComponent.js"
             ],
@@ -230,9 +233,6 @@
             ],
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
-            ],
-            "c/myComponent": [
-                "myComponent/myComponent.js"
             ]
         }
     },
