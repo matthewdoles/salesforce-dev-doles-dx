@@ -233,6 +233,12 @@
             ],
             "c/flipclock": [
                 "../staticresources/flipClock/flipclock/flipclock.js"
+            ],
+            "c/contactCreator": [
+                "contactCreator/contactCreator.js"
+            ],
+            "c/contactList": [
+                "contactList/contactList.js"
             ]
         }
     },

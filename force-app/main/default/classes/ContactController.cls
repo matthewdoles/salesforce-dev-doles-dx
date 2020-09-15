@@ -31,4 +31,10 @@ public with sharing class ContactController {
     public static Contact getSingleContact(){
         return [SELECT Id, Name, Title, Phone, Email, Picture__c FROM Contact LIMIT 1];
     }
+
+    @AuraEnabled
+    public static List<Contact> getContacts(){
+        throw new AuraHandledException('Forced error');
+        //return [SELECT FirstName, LastName, Email FROM Contact];
+    }
 }
