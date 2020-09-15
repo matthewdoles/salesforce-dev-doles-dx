@@ -63,6 +63,15 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Manage_Leads</members>
+        <members>Case_Read_Only</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Sales_Ops</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <types>
         <members>*</members>
         <name>Portal</name>
     </types>
