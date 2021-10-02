@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>THSK__Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>THSK__Customer__c</fields>
+    <fields>THSK__Email__c</fields>
+    <fields>THSK__Type__c</fields>
+    <fields>THSK__Exterior_Color__c</fields>
+    <fields>THSK__Manual_Transmission__c</fields>
+    <fields>THSK__X4_Wheel_Drive__c</fields>
+    <fields>THSK__Sunroof__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>
