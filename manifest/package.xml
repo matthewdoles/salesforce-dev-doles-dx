@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>THSK__Laptop_Warranty__c-THSK__Laptop Warranty Layout</members>
-        <members>THSK__New_Car_Survey__c-THSK__New Car Survey Layout</members>
+        <members>Survey</members>
+        <members>SurveyInvitation</members>
+        <members>SurveySubject</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Survey-Survey Layout</members>
+        <members>SurveyInvitation-Survey Invitation Layout</members>
         <name>Layout</name>
     </types>
     <version>46.0</version>
