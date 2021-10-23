@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Survey</members>
-        <members>SurveyInvitation</members>
-        <members>SurveySubject</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Survey-Survey Layout</members>
-        <members>SurveyInvitation-Survey Invitation Layout</members>
-        <name>Layout</name>
+        <members>Opportunity_Stage_to_Qualification</members>
+        <name>Flow</name>
     </types>
     <version>46.0</version>
 </Package>
