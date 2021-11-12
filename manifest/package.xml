@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Vehicle_Interest__c</members>
+        <members>Event_Registration__c</members>
+        <members>Public_Event__c</members>
+        <members>Session__c</members>
+        <members>Session_Registration__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Dreamforce_Event_Registration</members>
+        <name>Flow</name>
+    </types>
      <types>
-        <members>Vehicle_Interest__c-Vehicle Interest Layout</members>
+        <members>Event_Registration__c-Event Registration Layout</members>
+        <members>Public_Event__c-Public Events Layout</members>
+        <members>Session__c-Session Layout</members>
+        <members>Session_Registration__c-Session Registration Layout</members>
         <name>Layout</name>
+    </types>
+     <types>
+        <members>Event_Registration__c</members>
+        <members>Public_Event__c</members>
+        <members>Session__c</members>
+        <members>Session_Registration__c</members>
+        <name>CustomTab</name>
     </types>
     <version>46.0</version>
 </Package>
