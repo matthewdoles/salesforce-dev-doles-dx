@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Public_Reports/Cases_by_Status_MQP</members>
-        <name>Report</name>
+        <members>Travel_App</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Department__c</members>
+        <members>Expense_Item__c</members>
+        <members>Travel_Approval__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Department__c-Department Layout</members>
+        <members>Expense_Item__c-Expense Item Layout</members>
+        <members>Travel_Approval__c-Travel Approval Layout</members>
+        <name>Layout</name>
     </types>
     <version>46.0</version>
 </Package>
