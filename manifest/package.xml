@@ -15,6 +15,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>PublicDashboards/tnnlMSEIkmWralUKPpDwzKwGIFQhWG1</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>Set_Out_of_State_Travel_Flag</members>
         <name>Flow</name>
     </types>
@@ -23,6 +27,11 @@
         <members>Expense_Item__c-Expense Item Layout</members>
         <members>Travel_Approval__c-Travel Approval Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>unfiled$public/Travel_Requests_by_Month_qyK</members>
+        <members>unfiled$public/Travel_Requests_by_Department_6TF</members>
+        <name>Report</name>
     </types>
     <types>
         <members>StatusImages</members>
