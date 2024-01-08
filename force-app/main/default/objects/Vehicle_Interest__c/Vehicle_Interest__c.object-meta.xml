@@ -141,25 +141,35 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <description>Information imported from Customer Visit spreadsheet</description>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Session</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Vehicle Interest</label>
     <nameField>
-        <label>Session Name</label>
+        <label>Vehicle Interest</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Sessions</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <pluralLabel>Vehicle Interests</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Customer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Email__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Exterior_Color__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Manual_Transmission__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>X4_Wheel_Drive__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sunroof__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
