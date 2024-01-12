@@ -26,6 +26,7 @@
             </value>
         </inputParameters>
     </actionCalls>
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <name>Add_Values_to_Updated_Collection</name>
         <label>Add Values to Updated Collection</label>
@@ -139,6 +140,7 @@
         <connector>
             <targetReference>Reassign_Accounts</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>OwnerId</field>
             <operator>EqualTo</operator>
@@ -154,13 +156,14 @@
     </recordLookups>
     <recordLookups>
         <name>Get_User_1_s_ID</name>
-        <label>Get User 1&#39;s ID</label>
+        <label>Get User 1&apos;s ID</label>
         <locationX>595</locationX>
         <locationY>50</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_User_2_s_ID</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Username</field>
             <operator>EqualTo</operator>
@@ -184,6 +187,7 @@
         <connector>
             <targetReference>Get_User_3_s_ID</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Username</field>
             <operator>EqualTo</operator>
@@ -207,6 +211,7 @@
         <connector>
             <targetReference>Find_User_1_s_Accounts</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Username</field>
             <operator>EqualTo</operator>
@@ -244,7 +249,7 @@
         </connector>
         <fields>
             <name>EnterUsernames</name>
-            <fieldText>&lt;p&gt;So you need to reassign some accounts? No problem! First, we need the username of the person who&#39;s moving to a new role.&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;So you need to reassign some accounts? No problem! First, we need the username of the person who&apos;s moving to a new role.&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <fields>
@@ -289,7 +294,7 @@
         </connector>
         <fields>
             <name>ReassignMessage</name>
-            <fieldText>&lt;p&gt;All of {!User1.FirstName} {!User1.LastName}&#39;s accounts have been reassigned. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The hot accounts are now owned by {!User2.FirstName} {!User2.LastName}, and the other accounts are now owned by {!User3.FirstName} {!User3.LastName}.&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;All of {!User1.FirstName} {!User1.LastName}&apos;s accounts have been reassigned. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The hot accounts are now owned by {!User2.FirstName} {!User2.LastName}, and the other accounts are now owned by {!User3.FirstName} {!User3.LastName}.&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
@@ -300,6 +305,7 @@
     <textTemplates>
         <description>Email notification to the new owners of hot, warm, and cold accounts</description>
         <name>NewAccountEmail</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
         <text>Hello {!User2.FirstName} and {!User3.FirstName},
 Your account assignments were recently updated. Please log in to Salesforce to check your new accounts. Thank you!</text>
     </textTemplates>

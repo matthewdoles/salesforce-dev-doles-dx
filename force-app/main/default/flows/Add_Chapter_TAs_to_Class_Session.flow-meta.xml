@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <name>Map_Contact_ID_to_Campaign_Member</name>
         <label>Map Contact ID to Campaign Member</label>
@@ -86,6 +87,7 @@
         <connector>
             <targetReference>Loop_through_contacts</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>AccountId</field>
             <operator>EqualTo</operator>

@@ -4,57 +4,16 @@
         <processMetadataValues>
             <name>apexSelection</name>
             <value>
-                <stringValue>Give a Thanks Badge</stringValue>
+                <stringValue>Slack: Post Message</stringValue>
             </value>
         </processMetadataValues>
         <name>myRule_1_A1</name>
-        <label>Thank Instructor</label>
+        <label>send to slack</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
-        <actionName>GiveWorkThanksAction</actionName>
+        <actionName>slackv2__invokePostMessage</actionName>
         <actionType>apex</actionType>
-        <inputParameters>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Thanks Message</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>maxOccurs</name>
-                <value>
-                    <numberValue>0.0</numberValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>objectType</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <name>thanksMessage</name>
-            <value>
-                <stringValue>You are awesome! </stringValue>
-            </value>
-        </inputParameters>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <processMetadataValues>
                 <name>dataType</name>
@@ -71,7 +30,7 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Giver Id</stringValue>
+                    <stringValue>Record ID</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -92,9 +51,9 @@
                     <stringValue>Reference</stringValue>
                 </value>
             </processMetadataValues>
-            <name>giverId</name>
+            <name>recordId</name>
             <value>
-                <elementReference>myVariable_current.OwnerId</elementReference>
+                <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -113,7 +72,7 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Receiver Id</stringValue>
+                    <stringValue>Message Destination ID</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -131,12 +90,12 @@
             <processMetadataValues>
                 <name>rightHandSideType</name>
                 <value>
-                    <stringValue>Reference</stringValue>
+                    <stringValue>ID</stringValue>
                 </value>
             </processMetadataValues>
-            <name>receiverId</name>
+            <name>messageDestinationId</name>
             <value>
-                <elementReference>myVariable_current.Instructor__c</elementReference>
+                <stringValue>a0S1U000007MolaUAC</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -149,19 +108,19 @@
             <processMetadataValues>
                 <name>isRequired</name>
                 <value>
-                    <booleanValue>true</booleanValue>
+                    <booleanValue>false</booleanValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Badge Name</stringValue>
+                    <stringValue>Message</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
                 <name>maxOccurs</name>
                 <value>
-                    <numberValue>0.0</numberValue>
+                    <numberValue>1.0</numberValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -176,13 +135,13 @@
                     <stringValue>String</stringValue>
                 </value>
             </processMetadataValues>
-            <name>badgeName</name>
+            <name>message</name>
             <value>
-                <stringValue>Thanks</stringValue>
+                <stringValue>There’s a new lead in Salesforce!</stringValue>
             </value>
         </inputParameters>
     </actionCalls>
-    <apiVersion>49.0</apiVersion>
+    <apiVersion>52.0</apiVersion>
     <decisions>
         <processMetadataValues>
             <name>index</name>
@@ -199,80 +158,29 @@
             <name>myRule_1</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <processMetadataValues>
-                    <name>inputDataType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>leftHandSideType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>operatorDataType</name>
-                    <value>
-                        <stringValue>String</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>rightHandSideType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <leftValueReference>formula_myRule_1</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Completed</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <processMetadataValues>
-                    <name>inputDataType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>leftHandSideType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>operatorDataType</name>
-                    <value>
-                        <stringValue>String</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>rightHandSideType</name>
-                    <value>
-                        <stringValue>Picklist</stringValue>
-                    </value>
-                </processMetadataValues>
-                <leftValueReference>myVariable_current.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Dev Class</stringValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>Dev Class Campaign Complete</label>
+            <label>Record Creation</label>
         </rules>
     </decisions>
-    <description>Instructor and Teaching Assistant Management for completed class sessions</description>
-    <interviewLabel>Completed_Class_Sessions-4_InterviewLabel</interviewLabel>
-    <label>Completed Class Sessions</label>
+    <formulas>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>true</expression>
+    </formulas>
+    <interviewLabel>Slack_Leads-1_InterviewLabel</interviewLabel>
+    <label>Slack Leads</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
-            <stringValue>Campaign</stringValue>
+            <stringValue>Lead</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -290,7 +198,7 @@
     <processMetadataValues>
         <name>TriggerType</name>
         <value>
-            <stringValue>onAllChanges</stringValue>
+            <stringValue>onCreateOnly</stringValue>
         </value>
     </processMetadataValues>
     <processType>Workflow</processType>
@@ -302,7 +210,7 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>true</isOutput>
-        <objectType>Campaign</objectType>
+        <objectType>Lead</objectType>
     </variables>
     <variables>
         <name>myVariable_old</name>
@@ -310,6 +218,6 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
-        <objectType>Campaign</objectType>
+        <objectType>Lead</objectType>
     </variables>
 </Flow>

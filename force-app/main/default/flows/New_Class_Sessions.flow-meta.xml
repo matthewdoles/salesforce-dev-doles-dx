@@ -10,7 +10,7 @@
         <processMetadataValues>
             <name>textJson</name>
             <value>
-                <stringValue>{&quot;mentions&quot;:[],&quot;message&quot;:&quot;HELP WANTED! \n\nI&#39;m looking for Teaching Assistant volunteers for a {![Campaign].Name} class taught by {![Campaign].Instructor__c.FirstName} {![Campaign].Instructor__c.LastName} on {![Campaign].StartDate}! \n\nPlease email me at {![Campaign].Owner.Email} if you are interested.&quot;}</stringValue>
+                <stringValue>{&quot;mentions&quot;:[],&quot;message&quot;:&quot;HELP WANTED! \n\nI&apos;m looking for Teaching Assistant volunteers for a {![Campaign].Name} class taught by {![Campaign].Instructor__c.FirstName} {![Campaign].Instructor__c.LastName} on {![Campaign].StartDate}! \n\nPlease email me at {![Campaign].Owner.Email} if you are interested.&quot;}</stringValue>
             </value>
         </processMetadataValues>
         <name>myRule_1_A1</name>
@@ -27,7 +27,7 @@
             <value>
                 <stringValue>HELP WANTED! 
 
-I&#39;m looking for Teaching Assistant volunteers for a {!myVariable_current.Name} class taught by {!myVariable_current.Instructor__r.FirstName} {!myVariable_current.Instructor__r.LastName} on {!myVariable_current.StartDate}! 
+I&apos;m looking for Teaching Assistant volunteers for a {!myVariable_current.Name} class taught by {!myVariable_current.Instructor__r.FirstName} {!myVariable_current.Instructor__r.LastName} on {!myVariable_current.StartDate}! 
 
 Please email me at {!myVariable_current.Owner.Email} if you are interested.</stringValue>
             </value>
@@ -92,7 +92,7 @@ Please email me at {!myVariable_current.Owner.Email} if you are interested.</str
             <processMetadataValues>
                 <name>objectType</name>
                 <value>
-                    <stringValue/>
+                    <stringValue></stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -134,7 +134,7 @@ Please email me at {!myVariable_current.Owner.Email} if you are interested.</str
             <processMetadataValues>
                 <name>objectType</name>
                 <value>
-                    <stringValue/>
+                    <stringValue></stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -149,6 +149,7 @@ Please email me at {!myVariable_current.Owner.Email} if you are interested.</str
             </value>
         </inputParameters>
     </actionCalls>
+    <apiVersion>49.0</apiVersion>
     <decisions>
         <processMetadataValues>
             <name>index</name>
